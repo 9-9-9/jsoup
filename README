@@ -15,3 +15,26 @@ jsoup is designed to deal with all varieties of HTML found in the wild; from pri
 jsoup runs on Java 1.5 and up.
 
 See http://jsoup.org/ for downloads and documentation.
+
+下载jsoup
+jsoup是一个可下载的.jar Java库。当前发行版本是1.8.1。
+
+jsoup-1.8.1.jar核心库
+jsoup-1.8.1-sources.jar可选来源罐子
+jsoup-1.8.1-javadoc.jar可选的javadoc罐子
+什么是新的
+参见1.8.1发布公告的最新变化，或更改日志的完整历史。
+
+Maven的
+如果你使用Maven来管理Java项目的依赖关系（你应该！），你不需要下载;只需将以下到您的POM的<依赖>部分：
+
+<依赖>
+  <！ - jsoup HTML解析器库@ http://jsoup.org/ - >
+  <的groupId> org.jsoup</的groupId>
+  <的artifactId> jsoup</ artifactId的>
+  <版本>1.8.1</版本>
+</依赖>
+依赖
+jsoup是完全包含自我，并没有依赖关系。
+
+jsoup上运行的Java1.5及更高版本，斯卡拉，安卓，OSGi和谷歌的App Engine。
